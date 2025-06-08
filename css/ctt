@@ -1,0 +1,73 @@
+:root {
+  /* Dark Mode Colors */
+  --color-bg-dark: #0D0D0D;
+  --color-text-dark: #FFFFFF;
+  --color-accent-primary-dark: #6A0DAD;
+  --color-accent-secondary-dark: #9B30FF;
+  --color-surface-dark: #1A1A1A;
+  --color-surface-variant-dark: #252525;
+  
+  /* Light Mode Colors */
+  --color-bg-light: #FFFFFF;
+  --color-text-light: #000000;
+  --color-accent-primary-light: #6A0DAD;
+  --color-accent-secondary-light: #D3B4FF;
+  --color-surface-light: #F5F5F5;
+  --color-surface-variant-light: #EAEAEA;
+  
+  /* Common Colors */
+  --color-success: #4CAF50;
+  --color-warning: #FFC107;
+  --color-error: #F44336;
+  
+  /* Spacing */
+  --space-8: 0.5rem;
+  --space-16: 1rem;
+  --space-24: 1.5rem;
+  --space-32: 2rem;
+  --space-48: 3rem;
+  --space-64: 4rem;
+  --space-80: 5rem;
+  --space-90: 6rem;
+  
+  /* Typography */
+  --font-sans: 'Poppins', sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.5rem;
+  --font-size-4xl: 3rem;
+  --font-size-5xl: 4rem;
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.3s ease;
+  --transition-slow: 0.5s ease;
+  
+  /* Z-index */
+  --z-below: -1;
+  --z-normal: 1;
+  --z-above: 10;
+  --z-modal: 100;
+  --z-tooltip: 200;
+  --z-highest: 999;
+}
+
+/* Apply Dark Mode by default */
+:root {
+  --color-bg: var(--color-bg-dark);
+  --color-text: var(--color-text-dark);
+  --color-accent-primary: var(--color-accent-primary-dark);
+  --color-accent-secondary: var(--color-accent-secondary-dark);
+  --color-surface: var(--color-surface-dark);
+  --color-surface-variant: var(--color-surface-variant-dark);
+}
